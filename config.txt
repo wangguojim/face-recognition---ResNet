@@ -1,0 +1,26 @@
+新建一个anconda环境
+conda环境命令：
+     查看环境：conda info  --envs
+     激活环境：activate 环境名
+
+安装dlib:
+      conda install -c menpo dlib=18.18
+      （or）pip install dlib==19.6.1
+安装opencv:
+      pip install opencv-python
+
+
+
+cuda环境配置：
+      需求：有nvidia 显卡
+      安装：cuda,下载cudnn复制到cuda目录相应文件
+            conda install numba
+            conda install pyculib
+
+            pycuda 安装：https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycuda, pucuda.whl和boost.whl
+                         pip install /path/*.whl(或者放到user/home)
+            
+
+
+
+
